@@ -147,7 +147,7 @@ fig2 = px.bar(
     season_data,
     x="season_label",
     y="cnt",
-    color="season_label",
+    color_discrete_sequence=["#2878B5"],
     labels={
         "season_label": "Season",
         "cnt": "Average Daily Rentals"
@@ -169,7 +169,7 @@ fig3 = px.bar(
     weather_data,
     x="weather_label",
     y="cnt",
-    color="weather_label",
+    color_discrete_sequence=["#2878B5"],
     labels={
         "weather_label": "Weather",
         "cnt": "Average Daily Rentals"
@@ -196,7 +196,7 @@ fig4 = px.bar(
     day_type_data,
     x="Day Type",
     y="cnt",
-    color="Day Type",
+    color_discrete_sequence=["#2878B5"],
     labels={
         "cnt": "Average Hourly Rentals",
         "Day Type": "Day Type"
