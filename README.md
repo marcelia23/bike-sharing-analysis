@@ -48,3 +48,7 @@ Dashboard menyajikan:
 - Perbandingan hari kerja dan non-kerja.
 - Rata-rata penyewaan berdasarkan musim.
 - Rata-rata penyewaan berdasarkan kondisi cuaca.
+
+## Dashboard
+Dashboard interaktif Bike Sharing dapat diakses melalui Streamlit Community Cloud:
+Link Dashboard: https://bike-sharing-marcelia23.streamlit.app/
